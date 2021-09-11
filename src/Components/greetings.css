@@ -1,0 +1,25 @@
+.greet {
+  color: white;
+  font-size: 50px;
+  padding-top: 10px;
+  float: left;
+  margin-left: 12.5%;
+  padding-top: 5%;
+  
+}
+.time {
+  color: white;
+  opacity: 50%;
+  font-size: 20px;
+  
+  float: left;
+  margin-left: 16%;
+}
+/* 
+.fulllogo {
+  max-height: 100%;
+  width: 100px;
+  margin-right: 80%;
+  opacity: 70%;
+  position: absolute;
+} */

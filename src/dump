@@ -1,0 +1,52 @@
+
+}
+const MovieList = (props) => {
+  return (
+    <> 
+      {props.movies.map((movie, index)=> <div></div>)}
+    </>
+  );
+};
+
+`https://api.tvmaze.com/search/shows?q=${update}`
+
+
+}
+
+
+
+
+ const Menudetails = () => (
+    <div className="menubackground">
+      <div className="menuuser">{user.displayName}</div>
+    </div>
+  );
+
+
+   const onClick = () => {
+    setShowMenu(!showMenu);
+  };
+
+
+   <button onClick={onClick}>
+            <div className="userpfp">
+              <img src={user?.photoURL}></img>
+            </div>
+            {showMenu ? <Menudetails /> : null}
+          </button>
+
+
+   
+ .image-wrapper {
+  position: relative;
+}
+.image-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 1s ease-out;
+}
+.image-hover:hover {
+  opacity: 1;
+}

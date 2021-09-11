@@ -1,0 +1,49 @@
+.recent {
+  color: white;
+  font-size: 25px;
+
+  padding-top: 20px;
+
+  display: inline-block;
+}
+
+.ddown {
+  height: 30px;
+  display: inline-block;
+  position: absolute;
+  margin-top: 25px;
+  padding-left: 10px;
+}
+
+
+
+ 
+
+
+.recentclass{
+  display: flex;
+  justify-content: center;
+}
+
+.rimga {
+  width: 100px;
+  margin: 20px 0px 10px 0px;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+.rimga:hover{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.rtitle {
+  color: white;
+  font-size: 14px;
+  display: block;
+
+}

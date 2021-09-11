@@ -1,0 +1,24 @@
+.searchinputS {
+  display: inline-block;
+  background-color: transparent;
+  border: 0px solid transparent;
+  text-align: left;
+  color: white;
+  border-bottom: 1px solid white;
+  font-size: 13px;
+  opacity: 50%;
+  width: 10%;
+  transition: 0.2s ease-in-out;
+  margin-left: 10px;
+  
+  position: flex;
+}
+.searchinputS:hover {
+  opacity: 100%;
+}
+
+.searchinputS:focus {
+  outline: none !important;
+
+  opacity: 100%;
+}
